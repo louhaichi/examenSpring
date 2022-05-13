@@ -1299,3 +1299,29 @@ Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface
 2022-05-13 15:19:03.215  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 2022-05-13 15:19:03.267  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 2022-05-13 15:19:03.267  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:19:03.275  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:19:03.276  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:19:03.276  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2022-05-13 15:19:03.277  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2022-05-13 15:19:03.278  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:19:03.285  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:19:03.289 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
