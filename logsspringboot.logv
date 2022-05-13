@@ -247,3 +247,1055 @@ Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on tn.espr
 2022-05-13 14:40:02.763  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2022-05-13 14:40:03.041  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
 2022-05-13 14:40:03.294  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 5.707 seconds (JVM running for 7.291)
+2022-05-13 14:45:55.160  INFO 10212 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:45:55.168  INFO 10212 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-13 14:45:55.189  INFO 10212 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-13 14:45:55.783  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:45:55.784  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:45:56.739  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:45:56.744  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:45:57.007  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:45:57.008  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:45:57.009  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:45:57.034  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:45:57.035  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+2022-05-13 14:45:57.102  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:45:57.112  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-13 14:45:57.120  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-13 14:45:57.121  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:45:57.318  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:45:57.318  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:45:57.415  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:45:57.561  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:45:57.645  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:45:57.774  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 2.119 seconds (JVM running for 361.772)
+2022-05-13 14:45:57.781  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 14:46:17.809  INFO 10212 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:46:17.811  INFO 10212 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-13 14:46:17.819  INFO 10212 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-13 14:46:18.231  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:46:18.232  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:46:18.644  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:46:18.647  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:46:18.791  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:46:18.792  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:46:18.793  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:46:18.826  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:46:18.826  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 589 ms
+2022-05-13 14:46:18.887  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:46:18.893  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-13 14:46:18.897  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-13 14:46:18.898  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:46:18.984  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:46:18.984  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:46:19.061  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:46:19.134  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:46:19.200  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:46:19.271  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.091 seconds (JVM running for 383.269)
+2022-05-13 14:46:19.272  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 14:46:31.119  INFO 10212 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:46:31.123  INFO 10212 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-13 14:46:31.131  INFO 10212 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-13 14:46:31.552  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:46:31.552  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:46:32.048  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:46:32.051  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:46:32.220  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:46:32.221  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:46:32.221  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:46:32.238  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:46:32.238  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2022-05-13 14:46:32.308  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:46:32.318  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-13 14:46:32.327  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-13 14:46:32.328  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:46:32.497  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:46:32.498  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:46:32.587  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:46:32.658  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:46:32.714  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:46:32.771  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.258 seconds (JVM running for 396.769)
+2022-05-13 14:46:32.773  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 14:50:56.487  INFO 10212 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:50:56.488  INFO 10212 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-13 14:50:56.491  INFO 10212 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-13 14:50:56.963  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:50:56.963  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:50:57.410  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:50:57.413  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:50:57.540  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:50:57.541  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:50:57.541  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:50:57.587  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:50:57.588  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2022-05-13 14:50:57.624  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:50:57.629  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-05-13 14:50:57.633  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-05-13 14:50:57.634  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:50:57.701  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:50:57.701  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:50:57.767  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:50:57.879  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:50:57.985  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:50:58.088  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.174 seconds (JVM running for 662.087)
+2022-05-13 14:50:58.091  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 14:53:11.814  INFO 10212 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:53:11.818  INFO 10212 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-05-13 14:53:11.826  INFO 10212 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-05-13 14:53:12.025  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:53:12.025  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:53:12.387  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:53:12.393  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:53:12.545  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:53:12.546  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:53:12.546  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:53:12.558  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:53:12.558  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2022-05-13 14:53:12.586  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:53:12.590  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-13 14:53:12.594  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-13 14:53:12.595  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:53:12.670  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:53:12.671  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:53:12.735  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:53:12.810  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:53:12.882  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:53:12.942  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 0.966 seconds (JVM running for 796.94)
+2022-05-13 14:53:12.944  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 14:57:03.687  INFO 10212 --- [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:57:03.688  INFO 10212 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-13 14:57:03.693  INFO 10212 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-13 14:57:04.196  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 14:57:04.197  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 14:57:04.506  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 14:57:04.510  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-05-13 14:57:04.814  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 14:57:04.816  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 14:57:04.816  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 14:57:04.826  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 14:57:04.826  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 627 ms
+2022-05-13 14:57:04.869  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 14:57:04.875  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-05-13 14:57:04.879  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-05-13 14:57:04.879  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 14:57:04.941  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 14:57:04.941  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 14:57:04.996  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 14:57:05.096  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 14:57:05.158  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 14:57:05.284  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.122 seconds (JVM running for 1029.282)
+2022-05-13 14:57:05.289  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:01:12.547  INFO 10212 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:12.549  INFO 10212 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-05-13 15:01:12.553  INFO 10212 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-05-13 15:01:12.854  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:01:12.854  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:01:13.227  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:01:13.231  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-05-13 15:01:13.371  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:01:13.372  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:01:13.372  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:01:13.388  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:01:13.388  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 530 ms
+2022-05-13 15:01:13.426  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:01:13.431  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-05-13 15:01:13.435  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-05-13 15:01:13.436  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:01:13.508  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:01:13.508  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:13.520  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:01:13.520  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:13.520  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-05-13 15:01:13.522  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-05-13 15:01:13.523  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:01:13.535  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:01:13.566 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:01:30.406  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:01:30.406  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:01:30.819  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:01:30.823  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-05-13 15:01:30.932  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:01:30.933  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:01:30.933  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:01:30.946  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:01:30.947  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 538 ms
+2022-05-13 15:01:30.985  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:01:30.990  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-05-13 15:01:30.994  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-05-13 15:01:30.995  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:01:31.073  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:01:31.074  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:31.079  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:01:31.080  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:31.080  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-05-13 15:01:31.081  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-05-13 15:01:31.081  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:01:31.088  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:01:31.092 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:01:57.148  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:01:57.149  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:01:57.590  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:01:57.594  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-05-13 15:01:57.743  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:01:57.744  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:01:57.744  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:01:57.760  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:01:57.760  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2022-05-13 15:01:57.801  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:01:57.807  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-05-13 15:01:57.812  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-05-13 15:01:57.812  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:01:57.885  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:01:57.886  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:57.899  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:01:57.899  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:01:57.900  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-05-13 15:01:57.902  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2022-05-13 15:01:57.902  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:01:57.915  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:01:57.922 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:02:03.560  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:02:03.560  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:02:04.021  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:02:04.070  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:02:04.239  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:02:04.240  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:02:04.240  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:02:04.259  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:02:04.259  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 695 ms
+2022-05-13 15:02:04.328  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:02:04.334  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2022-05-13 15:02:04.339  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2022-05-13 15:02:04.340  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:02:04.416  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:02:04.416  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:04.426  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:02:04.426  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:04.426  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2022-05-13 15:02:04.428  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2022-05-13 15:02:04.428  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:02:04.437  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:02:04.443 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:02:05.938  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:02:05.938  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:02:06.326  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:02:06.340  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:02:06.455  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:02:06.456  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:02:06.456  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:02:06.472  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:02:06.473  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 533 ms
+2022-05-13 15:02:06.521  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:02:06.526  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2022-05-13 15:02:06.530  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2022-05-13 15:02:06.531  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:02:06.606  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:02:06.606  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:06.613  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:02:06.613  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:06.613  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2022-05-13 15:02:06.614  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2022-05-13 15:02:06.615  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:02:06.622  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:02:06.627 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:02:08.100  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:02:08.100  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:02:08.605  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:02:08.619  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:02:08.766  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:02:08.767  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:02:08.767  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:02:08.783  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:02:08.783  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 679 ms
+2022-05-13 15:02:08.854  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:02:08.861  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2022-05-13 15:02:08.866  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2022-05-13 15:02:08.866  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:02:08.947  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:02:08.948  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:08.956  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:02:08.956  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:02:08.957  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2022-05-13 15:02:08.958  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2022-05-13 15:02:08.959  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:02:08.967  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:02:08.972 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:03:08.953  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:03:08.953  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:03:09.301  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:03:09.312  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:03:09.476  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:03:09.476  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:03:09.477  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:03:09.491  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:03:09.491  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 535 ms
+2022-05-13 15:03:09.530  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:03:09.536  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2022-05-13 15:03:09.539  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2022-05-13 15:03:09.540  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:03:09.591  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:03:09.592  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:03:09.599  WARN 10212 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'formateurController': Unsatisfied dependency expressed through field 'formateurInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.FormateurInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:03:09.599  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:03:09.600  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2022-05-13 15:03:09.601  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2022-05-13 15:03:09.602  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:03:09.609  INFO 10212 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:03:09.614 ERROR 10212 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field formateurInterface in tn.esprit.spring.controller.FormateurController required a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.FormateurInterface' in your configuration.
+
+2022-05-13 15:03:47.007  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:03:47.008  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:03:47.317  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:03:47.326  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:03:47.447  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:03:47.447  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:03:47.448  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:03:47.459  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:03:47.459  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
+2022-05-13 15:03:47.490  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:03:47.495  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2022-05-13 15:03:47.498  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2022-05-13 15:03:47.499  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:03:47.557  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:03:47.557  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:03:47.922  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:03:47.981  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:03:48.028  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 15:03:48.152  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.223 seconds (JVM running for 1432.149)
+2022-05-13 15:03:48.153  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:04:19.317  INFO 10212 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:19.319  INFO 10212 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2022-05-13 15:04:19.322  INFO 10212 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2022-05-13 15:04:19.753  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 10212 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:04:19.753  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:04:20.076  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:04:20.088  INFO 10212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:04:20.219  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:04:20.220  INFO 10212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:04:20.220  INFO 10212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:04:20.235  INFO 10212 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:04:20.235  INFO 10212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 479 ms
+2022-05-13 15:04:20.274  INFO 10212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:04:20.279  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2022-05-13 15:04:20.283  INFO 10212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2022-05-13 15:04:20.284  INFO 10212 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:04:20.336  INFO 10212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:04:20.336  INFO 10212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:20.458  WARN 10212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:04:20.520  INFO 10212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:04:20.571  INFO 10212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/SpringMVC'
+2022-05-13 15:04:20.646  INFO 10212 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 0.941 seconds (JVM running for 1464.644)
+2022-05-13 15:04:20.648  INFO 10212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:04:29.636  INFO 19776 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 19776 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:04:29.638  INFO 19776 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:04:29.706  INFO 19776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 15:04:29.707  INFO 19776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 15:04:31.010  INFO 19776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:04:31.068  INFO 19776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:04:31.939  INFO 19776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-13 15:04:31.955  INFO 19776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:04:31.955  INFO 19776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:04:32.051  INFO 19776 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:04:32.052  INFO 19776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2344 ms
+2022-05-13 15:04:32.413  INFO 19776 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:04:32.515  INFO 19776 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-13 15:04:32.752  INFO 19776 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 15:04:32.899  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-13 15:04:33.121  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-13 15:04:33.146  INFO 19776 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:04:34.208  INFO 19776 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:04:34.221  INFO 19776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:34.926  WARN 19776 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:04:35.301  WARN 19776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-13 15:04:36.015  WARN 19776 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-05-13 15:04:36.023  INFO 19776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:36.028  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-13 15:04:36.049  INFO 19776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-13 15:04:36.054  INFO 19776 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:04:36.075  INFO 19776 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:04:36.115 ERROR 19776 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-05-13 15:04:45.102  INFO 10212 --- [RMI TCP Connection(54)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-13 15:04:45.308  INFO 10212 --- [RMI TCP Connection(54)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:45.310  INFO 10212 --- [RMI TCP Connection(54)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2022-05-13 15:04:45.313  INFO 10212 --- [RMI TCP Connection(54)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2022-05-13 15:04:49.156  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:04:49.158  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:04:49.224  INFO 12916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 15:04:49.225  INFO 12916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 15:04:50.290  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:04:50.353  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:04:51.203  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:04:51.221  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:04:51.222  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:04:51.327  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:04:51.328  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2102 ms
+2022-05-13 15:04:51.642  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:04:51.714  INFO 12916 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-13 15:04:51.947  INFO 12916 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 15:04:52.109  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-13 15:04:52.323  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-13 15:04:52.348  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:04:53.384  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:04:53.398  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:04:54.105  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:04:54.515  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:04:55.246  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:04:55.586  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 6.977 seconds (JVM running for 8.156)
+2022-05-13 15:07:20.250  INFO 12916 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:07:20.254  INFO 12916 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-13 15:07:20.266  INFO 12916 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-13 15:07:20.658  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:07:20.659  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:07:21.161  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:07:21.172  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:07:21.355  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:07:21.355  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:07:21.356  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:07:21.374  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:07:21.375  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2022-05-13 15:07:21.432  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:07:21.438  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-13 15:07:21.444  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-13 15:07:21.444  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:07:21.551  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:07:21.552  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:07:21.732  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:07:21.828  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:07:21.898  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:07:22.044  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.428 seconds (JVM running for 154.614)
+2022-05-13 15:07:22.048  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:07:35.902  INFO 12916 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:07:35.905  INFO 12916 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-13 15:07:35.914  INFO 12916 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-13 15:07:36.434  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:07:36.435  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:07:36.844  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:07:36.854  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:07:36.956  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:07:36.957  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:07:36.957  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:07:36.972  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:07:36.972  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+2022-05-13 15:07:37.014  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:07:37.019  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-13 15:07:37.022  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-13 15:07:37.023  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:07:37.109  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:07:37.109  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:07:37.257  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:07:37.327  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:07:37.379  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:07:37.479  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.108 seconds (JVM running for 170.049)
+2022-05-13 15:07:37.481  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:08:38.428  INFO 12916 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:08:38.429  INFO 12916 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-13 15:08:38.432  INFO 12916 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-13 15:08:38.881  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:08:38.881  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:08:39.297  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:08:39.313  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:08:39.461  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:08:39.462  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:08:39.462  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:08:39.477  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:08:39.477  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 593 ms
+2022-05-13 15:08:39.512  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:08:39.517  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-13 15:08:39.521  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-13 15:08:39.521  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:08:39.589  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:08:39.589  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:08:39.713  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:08:39.779  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:08:39.831  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:08:39.915  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.08 seconds (JVM running for 232.485)
+2022-05-13 15:08:39.918  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:09:35.987  INFO 12916 --- [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:09:35.989  INFO 12916 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-13 15:09:35.995  INFO 12916 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-13 15:09:36.353  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:09:36.354  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:09:36.741  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:09:36.752  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:09:36.912  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:09:36.912  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:09:36.912  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:09:36.934  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:09:36.934  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 577 ms
+2022-05-13 15:09:36.968  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:09:36.972  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-05-13 15:09:36.977  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-05-13 15:09:36.977  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:09:37.038  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:09:37.039  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:09:37.175  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:09:37.258  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:09:37.317  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:09:37.392  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.082 seconds (JVM running for 289.962)
+2022-05-13 15:09:37.394  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:10:30.153  INFO 12916 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:10:30.154  INFO 12916 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-05-13 15:10:30.157  INFO 12916 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-05-13 15:10:30.504  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:10:30.504  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:10:30.939  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:10:30.950  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-05-13 15:10:31.064  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:10:31.065  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:10:31.065  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:10:31.112  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:10:31.113  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 605 ms
+2022-05-13 15:10:31.163  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:10:31.169  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-13 15:10:31.173  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-13 15:10:31.173  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:10:31.232  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:10:31.232  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:10:31.358  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:10:31.432  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:10:31.494  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:10:31.560  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.097 seconds (JVM running for 344.13)
+2022-05-13 15:10:31.562  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:11:27.619  INFO 12916 --- [Thread-37] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:11:27.620  INFO 12916 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-13 15:11:27.626  INFO 12916 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-13 15:11:27.948  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:11:27.949  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:11:28.302  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:11:28.319  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:11:28.529  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:11:28.530  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:11:28.531  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:11:28.558  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:11:28.558  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2022-05-13 15:11:28.623  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:11:28.628  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-05-13 15:11:28.632  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-05-13 15:11:28.632  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:11:28.692  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:11:28.692  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:11:28.794  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:11:28.856  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:11:28.928  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:11:28.995  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.084 seconds (JVM running for 401.565)
+2022-05-13 15:11:28.997  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:13:00.738  INFO 12916 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:13:00.740  INFO 12916 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-05-13 15:13:00.746  INFO 12916 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-05-13 15:13:01.104  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:13:01.104  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:13:01.483  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:13:01.502  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:13:01.668  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:13:01.669  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:13:01.669  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:13:01.686  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:13:01.687  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2022-05-13 15:13:01.736  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:13:01.742  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-05-13 15:13:01.746  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-05-13 15:13:01.746  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:13:01.828  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:13:01.828  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:13:02.030  WARN 12916 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 15:13:02.127  INFO 12916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-13 15:13:02.215  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/SpringMVC'
+2022-05-13 15:13:02.289  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Started ExamenSpringApplication in 1.233 seconds (JVM running for 494.86)
+2022-05-13 15:13:02.291  INFO 12916 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-13 15:17:20.438  INFO 12916 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:20.442  INFO 12916 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-05-13 15:17:20.454  INFO 12916 --- [Thread-49] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-05-13 15:17:20.984  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:17:20.984  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:17:21.317  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:17:21.337  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:17:21.503  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:17:21.503  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:17:21.503  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:17:21.521  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:17:21.521  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 535 ms
+2022-05-13 15:17:21.567  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:17:21.573  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-05-13 15:17:21.577  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-05-13 15:17:21.578  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:17:21.646  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:17:21.646  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:21.655  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:17:21.655  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:21.655  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-05-13 15:17:21.657  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-05-13 15:17:21.657  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:17:21.666  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:17:21.714 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:17:54.908  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:17:54.909  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:17:55.320  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:17:55.331  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:17:55.456  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:17:55.457  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:17:55.457  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:17:55.480  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:17:55.480  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 567 ms
+2022-05-13 15:17:55.539  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:17:55.548  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-05-13 15:17:55.558  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-05-13 15:17:55.558  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:17:55.631  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:17:55.631  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:55.639  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:17:55.639  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:55.640  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-05-13 15:17:55.641  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2022-05-13 15:17:55.642  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:17:55.651  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:17:55.657 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:17:57.119  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:17:57.119  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:17:57.561  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:17:57.579  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:17:57.686  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:17:57.687  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:17:57.687  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:17:57.722  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:17:57.722  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2022-05-13 15:17:57.760  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:17:57.764  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2022-05-13 15:17:57.768  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2022-05-13 15:17:57.768  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:17:57.816  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:17:57.816  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:57.823  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:17:57.823  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:17:57.824  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2022-05-13 15:17:57.825  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2022-05-13 15:17:57.825  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:17:57.831  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:17:57.834 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:18:00.418  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:18:00.418  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:18:00.839  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:18:00.852  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2022-05-13 15:18:00.935  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:18:00.935  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:18:00.935  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:18:00.957  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:18:00.958  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 534 ms
+2022-05-13 15:18:00.989  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:18:00.994  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2022-05-13 15:18:00.997  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2022-05-13 15:18:00.998  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:18:01.051  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:18:01.051  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:01.056  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:18:01.057  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:01.057  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2022-05-13 15:18:01.058  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2022-05-13 15:18:01.058  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:18:01.067  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:18:01.072 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:18:07.723  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:18:07.723  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:18:08.032  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:18:08.049  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2022-05-13 15:18:08.151  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:18:08.152  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:18:08.152  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:18:08.175  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:18:08.175  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 451 ms
+2022-05-13 15:18:08.213  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:18:08.219  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2022-05-13 15:18:08.224  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2022-05-13 15:18:08.225  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:18:08.307  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:18:08.307  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:08.314  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:18:08.314  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:08.314  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2022-05-13 15:18:08.316  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2022-05-13 15:18:08.316  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:18:08.323  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:18:08.327 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:18:10.648  INFO 22284 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 22284 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:18:10.649  INFO 22284 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:18:10.723  INFO 22284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-13 15:18:10.724  INFO 22284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-13 15:18:11.833  INFO 22284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:18:11.907  INFO 22284 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2022-05-13 15:18:12.842  INFO 22284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:18:12.858  INFO 22284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:18:12.859  INFO 22284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:18:13.087  INFO 22284 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:18:13.088  INFO 22284 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2363 ms
+2022-05-13 15:18:13.409  INFO 22284 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:18:13.476  INFO 22284 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-13 15:18:13.727  INFO 22284 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 15:18:13.885  INFO 22284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-13 15:18:14.180  INFO 22284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-13 15:18:14.214  INFO 22284 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:18:15.453  INFO 22284 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:18:15.472  INFO 22284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:15.492  WARN 22284 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:18:15.492  INFO 22284 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:15.500  INFO 22284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-13 15:18:15.521  INFO 22284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-13 15:18:15.523  INFO 22284 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:18:15.547  INFO 22284 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:18:15.581 ERROR 22284 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:18:34.470  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:18:34.471  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:18:34.961  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:18:34.981  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2022-05-13 15:18:35.126  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:18:35.126  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:18:35.126  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:18:35.152  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:18:35.152  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 674 ms
+2022-05-13 15:18:35.196  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:18:35.203  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2022-05-13 15:18:35.207  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2022-05-13 15:18:35.208  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:18:35.266  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:18:35.266  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:35.276  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:18:35.276  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:35.276  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2022-05-13 15:18:35.278  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2022-05-13 15:18:35.278  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:18:35.288  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:18:35.294 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:18:36.835  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:18:36.835  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:18:37.225  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:18:37.240  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2022-05-13 15:18:37.326  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:18:37.327  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:18:37.327  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:18:37.342  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:18:37.342  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
+2022-05-13 15:18:37.377  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:18:37.380  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2022-05-13 15:18:37.383  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2022-05-13 15:18:37.383  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:18:37.425  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:18:37.426  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:37.432  WARN 12916 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'apprenantController': Unsatisfied dependency expressed through field 'ApprenantInterface'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-05-13 15:18:37.432  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 15:18:37.432  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2022-05-13 15:18:37.433  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2022-05-13 15:18:37.434  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-13 15:18:37.441  INFO 12916 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-13 15:18:37.445 ERROR 12916 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ApprenantInterface in tn.esprit.spring.controller.ApprenantController required a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'tn.esprit.spring.interfaces.ApprenantInterface' in your configuration.
+
+2022-05-13 15:19:02.520  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : Starting ExamenSpringApplication using Java 1.8.0_60 on DESKTOP-QC4RILR with PID 12916 (C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring\target\classes started by lenovo in C:\Users\lenovo\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\examenSpring)
+2022-05-13 15:19:02.520  INFO 12916 --- [restartedMain] t.esprit.spring.ExamenSpringApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-05-13 15:19:02.970  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 15:19:02.992  INFO 12916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2022-05-13 15:19:03.128  INFO 12916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-13 15:19:03.129  INFO 12916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-13 15:19:03.129  INFO 12916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 15:19:03.152  INFO 12916 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-05-13 15:19:03.152  INFO 12916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 629 ms
+2022-05-13 15:19:03.206  INFO 12916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 15:19:03.210  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2022-05-13 15:19:03.214  INFO 12916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2022-05-13 15:19:03.215  INFO 12916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-05-13 15:19:03.267  INFO 12916 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 15:19:03.267  INFO 12916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
